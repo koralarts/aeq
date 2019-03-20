@@ -1,0 +1,25 @@
+{
+  "name": "aeq",
+  "version": "1.0.0",
+  "description": "Castle Company &amp; Transformers",
+  "main": "castle.js",
+  "scripts": {
+    "test": "npm run test-castle && npm run test-transformers",
+    "test-castle": "mocha test/test-castle.js",
+    "test-transformers": "mocha test/test-transformers.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koralarts/aeq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koralarts/aeq/issues"
+  },
+  "homepage": "https://github.com/koralarts/aeq#readme",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
